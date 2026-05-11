@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dragon Siege Game Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>DRAGON SIEGE GAME TRACKER</h1>
+  <p>Live Qualifying & Elimination Brackets</p>
+</header>
+
+<section class="matches">
+  <!-- Qualifying Matches -->
+  <div class="match-box" id="qualifying-section">
+    <h2>Qualifying Matches</h2>
+    <div class="match-list" id="qualifying-list"></div>
+    <button class="add-btn" onclick="addMatch('qualifying-list')">+ Add Qualifying Match</button>
+  </div>
+
+  <!-- Elimination Matches -->
+  <div class="match-box" id="elimination-section">
+    <h2>Elimination Matches</h2>
+    <div class="match-list" id="elimination-list"></div>
+    <button class="add-btn" onclick="addMatch('elimination-list')">+ Add Elimination Match</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
